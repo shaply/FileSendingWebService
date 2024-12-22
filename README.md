@@ -3,8 +3,7 @@ This is a simple file sending and receiving service with FastAPI and Nginx. The 
 # Set up NGINX Config
 1. Get nginx
 
-Assuming the nginx etc directory is /etc/nginx; cd into /etc/nginx
-2. Check if nginx.conf has the line "include sites-enabled/*". If not, add it.
+2. Assuming the nginx etc directory is /etc/nginx; cd into /etc/nginx, check if nginx.conf has the line "include sites-enabled/*". If not, add it.
 
 3. Create the file sites-available/fastapi
 
