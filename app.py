@@ -1,5 +1,3 @@
-# uvicorn app:app --reload --host 0.0.0.0 --port 443 --ssl-keyfile=key.pem --ssl-certfile=cert.pem --timeout-keep-alive 120
-
 import time
 from fastapi import FastAPI, File, UploadFile, Form
 from fastapi.responses import JSONResponse, FileResponse, RedirectResponse
